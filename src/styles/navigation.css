@@ -1,0 +1,16 @@
+.navigation {
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+}
+
+.collapsed {
+    padding: -10px;
+    width: 15px;
+    height: 15px;
+}
+
+.nav-link {
+    padding: 10px;
+}

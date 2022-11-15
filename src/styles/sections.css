@@ -1,0 +1,162 @@
+/* All sections */
+
+
+  
+  /* About Section */
+  
+/* Phones */
+@media (max-width: 780px){
+    h1{
+        margin-top: 20vw;
+    }
+
+    .section-body {
+        margin-top: 10vw;
+        display: flex;
+        flex-direction: column;
+        place-items: center;
+        min-width: 320px;
+        max-width: 780px;
+        min-height: 100vh;
+      }
+
+    img{
+        border-radius: 2.5vw;
+      }
+
+    #picture-of-me {
+        margin: 5vw 0 5vw 0;
+        width: 50vw;
+      }
+      
+      .section-blurb {
+        margin-top: 5vw;
+        margin-bottom: 5vw;
+        padding-bottom: 5vw;
+        box-shadow: 3vw 3vw #213547;
+        border-radius: 16px;
+        width: 80%;
+        background-color: #1a1a1a;
+      }
+      
+      .reversed {
+        background-color: #213547;
+        box-shadow: 3vw 3vw #1a1a1a;
+      }
+      
+      .section-blurb p {
+        text-align: left;
+        margin-left: 1em;
+        margin-right: 1em;
+      }
+      
+
+      
+}
+
+@media (min-width: 780px) {
+    .section-body {
+        margin-top: 0.5vw;
+        display: flex;
+        flex-direction: row;
+        place-items: center;
+        min-width: 320px;
+        justify-content: space-around;
+      }
+
+    img{
+        border-radius: .5vw;
+      }
+
+    #picture-of-me {
+        margin: 5vw 0 5vw 0;
+        width: 20vw;
+      }
+    
+      .section-blurb {
+        padding: 1vw;
+        border-radius: .5vw;
+        min-width: 20vw;
+        min-height: 23vw;
+      }
+
+      p {
+        font-size: 2em;
+      }
+
+      .reversed {
+        background-color: #213547;
+        box-shadow: #1a1a1a;
+      }
+
+      h3{
+        font-size: 2.5em;
+      }
+}
+
+#about-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+#about-links a{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #1a1a1a;
+}
+
+  /* Projects Section */
+.project-panel {
+    position: relative;
+    display: block;
+    padding: 0 .5vw 0 .5vw;
+    margin: .25vh .5vw .25vh .5vw;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.underneath {
+    width: 100%;
+    opacity: .4;
+    position:relative;
+}
+
+.underneath:hover{
+  opacity: 1;
+}
+
+.overlay {
+    position: absolute;
+    top: 0%;
+    left: 10%;
+    cursor: pointer;
+    max-width: 80%;
+
+}
+
+.projects-body {
+    padding-top: 10%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+
+  /* Resume Section */
+#resume-header h2 {
+  margin-bottom: 0;
+}
+  
+#resume {
+  background-color: white;
+  margin: 0 1vw 0 1vw;
+  border-radius: 8px;
+  color: black;
+}
+
+#skills-body {
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+}
+  /* Contact Section */
+  
